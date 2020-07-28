@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/yezen.rashid/code/producer/src/main/resources/testKeys/tenant2_privkey.pem,/Users/yezen.rashid/code/producer/target/scala-2.13/classes/testKeys/tenant2_privkey.pem)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/yezen.rashid/code/producer/src/main/resources/testKeys/tenant1_pubkey.pem,/Users/yezen.rashid/code/producer/target/scala-2.13/classes/testKeys/tenant1_pubkey.pem)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/yezen.rashid/code/producer/src/main/resources/testKeys/test_ecdsa_privkey.pem,/Users/yezen.rashid/code/producer/target/scala-2.13/classes/testKeys/test_ecdsa_privkey.pem)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/yezen.rashid/code/producer/src/main/resources/testKeys/tenant3_pubkey.pem,/Users/yezen.rashid/code/producer/target/scala-2.13/classes/testKeys/tenant3_pubkey.pem)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/yezen.rashid/code/producer/src/main/resources/testKeys/tenant1_privkey.pem,/Users/yezen.rashid/code/producer/target/scala-2.13/classes/testKeys/tenant1_privkey.pem)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/yezen.rashid/code/producer/src/main/resources/testKeys/keypair.pem,/Users/yezen.rashid/code/producer/target/scala-2.13/classes/testKeys/keypair.pem)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/yezen.rashid/code/producer/src/main/resources/testKeys/test_ecdsa_pubkey.pem,/Users/yezen.rashid/code/producer/target/scala-2.13/classes/testKeys/test_ecdsa_pubkey.pem)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/yezen.rashid/code/producer/src/main/resources/testKeys/rsa_private.der,/Users/yezen.rashid/code/producer/target/scala-2.13/classes/testKeys/rsa_private.der)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/yezen.rashid/code/producer/src/main/resources/testKeys/test_ecdsa_pubkey_bad.pem,/Users/yezen.rashid/code/producer/target/scala-2.13/classes/testKeys/test_ecdsa_pubkey_bad.pem)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/yezen.rashid/code/producer/src/main/resources/testKeys/test_ecdsa_privkey_bad.pem,/Users/yezen.rashid/code/producer/target/scala-2.13/classes/testKeys/test_ecdsa_privkey_bad.pem)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/yezen.rashid/code/producer/src/main/resources/testKeys/tenant3_privkey.pem,/Users/yezen.rashid/code/producer/target/scala-2.13/classes/testKeys/tenant3_privkey.pem)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/yezen.rashid/code/producer/src/main/resources/testKeys/rsa_public.crt,/Users/yezen.rashid/code/producer/target/scala-2.13/classes/testKeys/rsa_public.crt)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/yezen.rashid/code/producer/src/main/resources/testKeys/tenant2_pubkey.pem,/Users/yezen.rashid/code/producer/target/scala-2.13/classes/testKeys/tenant2_pubkey.pem)[0m

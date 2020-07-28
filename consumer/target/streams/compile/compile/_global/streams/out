@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/yezen.rashid/code/cosumer/src/main/scala/Main.scala:15:28: Java enum org.apache.pulsar.client.api.ConsumerCryptoFailureAction is not a value[0m
+[0m[[0m[31merror[0m] [0m[0m      .cryptoFailureAction(ConsumerCryptoFailureAction)[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

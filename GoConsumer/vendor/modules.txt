@@ -1,0 +1,56 @@
+# github.com/apache/pulsar v2.6.0+incompatible
+## explicit
+# github.com/apache/pulsar-client-go v0.1.1
+## explicit
+github.com/apache/pulsar-client-go/pulsar
+github.com/apache/pulsar-client-go/pulsar/internal
+github.com/apache/pulsar-client-go/pulsar/internal/auth
+github.com/apache/pulsar-client-go/pulsar/internal/compression
+github.com/apache/pulsar-client-go/pulsar/internal/pb
+# github.com/apache/pulsar/pulsar-client-go v0.0.0-20200727163639-76a45f4f85cb
+## explicit
+github.com/apache/pulsar/pulsar-client-go/logutil
+github.com/apache/pulsar/pulsar-client-go/pulsar
+# github.com/ardielle/ardielle-go v1.5.2
+github.com/ardielle/ardielle-go/rdl
+# github.com/gogo/protobuf v1.3.1
+## explicit
+github.com/gogo/protobuf/proto
+# github.com/golang/protobuf v1.3.1
+github.com/golang/protobuf/proto
+# github.com/golang/snappy v0.0.1
+## explicit
+github.com/golang/snappy
+# github.com/klauspost/compress v1.10.8
+github.com/klauspost/compress/fse
+github.com/klauspost/compress/huff0
+github.com/klauspost/compress/snappy
+github.com/klauspost/compress/zstd
+github.com/klauspost/compress/zstd/internal/xxhash
+# github.com/konsorten/go-windows-terminal-sequences v1.0.3
+## explicit
+github.com/konsorten/go-windows-terminal-sequences
+# github.com/linkedin/goavro v2.1.0+incompatible
+github.com/linkedin/goavro
+# github.com/pierrec/lz4 v2.0.5+incompatible
+github.com/pierrec/lz4
+github.com/pierrec/lz4/internal/xxh32
+# github.com/pkg/errors v0.8.1
+github.com/pkg/errors
+# github.com/sirupsen/logrus v1.6.0
+## explicit
+github.com/sirupsen/logrus
+# github.com/spaolacci/murmur3 v1.1.0
+github.com/spaolacci/murmur3
+# github.com/valyala/gozstd v1.7.0
+github.com/valyala/gozstd
+# github.com/yahoo/athenz v1.8.55
+github.com/yahoo/athenz/clients/go/zts
+github.com/yahoo/athenz/libs/go/zmssvctoken
+github.com/yahoo/athenz/libs/go/ztsroletoken
+# golang.org/x/sys v0.0.0-20200722175500-76b94024e4b6
+## explicit
+golang.org/x/sys/internal/unsafeheader
+golang.org/x/sys/unix
+# gopkg.in/natefinch/lumberjack.v2 v2.0.0
+gopkg.in/natefinch/lumberjack.v2
