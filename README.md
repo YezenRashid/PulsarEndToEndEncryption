@@ -3,6 +3,19 @@
 # Requirements
 Must have a pulsar container or instance running.
 
+Create your ECDSA or RSA public/private key pair for the tenant keys following
+
+```
+openssl ecparam -name secp521r1 -genkey -param_enc explicit -out test_ecdsa_privkey.pem
+openssl ec -in test_ecdsa_privkey.pem -pubout -outform pkcs8 -out test_ecdsa_pubkey.pem
+```
+
+For generating the RSA key to be used for the go client decryption you can follow
+```
+openssl genrsa -out keypair.pem 2048
+openssl rsa -in keypair.pem -pubout -out rsa_public.crt
+```
+
 # Summary
 In this repo you will find examples of how to send encrypted messages over pulsar.
 
