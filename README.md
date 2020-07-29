@@ -1,7 +1,10 @@
-# PulsarExamples
+# End to End Encryption Using Pulsar
 
-Requirements:
+# Requirements
 Must have a pulsar container or instance running.
+
+# Summary
+In this repo you will find examples of how to send encrypted messages over pulsar.
 
 Here are examples using pulsar.
 
