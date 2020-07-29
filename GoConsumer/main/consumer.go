@@ -17,42 +17,6 @@ import "github.com/apache/pulsar-client-go/pulsar"
 func main() {
 	fmt.Println("Starting up the GO consumer")
 
-	//// Instantiate a Pulsar client
-	//	//client, err := pulsar.NewClient(pulsar.ClientOptions{
-	//	//	URL: "pulsar://localhost:6650",
-	//	//})
-	//	//
-	//	//if err != nil { log.Fatal(err) }
-	//	//
-	//	//msgChannel := make(chan pulsar.ConsumerMessage)
-	//	////rawFileCryptoKeyReader := pulsar.CryptoKeyReader("tenant", nil)
-	//	//
-	//	//consumerOpts := pulsar.ConsumerOptions{
-	//	//	Topic:            "usersEncrypted",
-	//	//	SubscriptionName: "goClient",
-	//	//	Type:             pulsar.Exclusive,
-	//	//	MessageChannel:   msgChannel,
-	//	//	//CryptoKeyReaderPtr: x,
-	//	//}
-	//	//
-	//	//consumer, err := client.Subscribe(consumerOpts)
-	//	//
-	//	//if err != nil {
-	//	//	log.Fatalf("Could not establish subscription: %v", err)
-	//	//}
-	//	//
-	//	//defer consumer.Close()
-	//	//
-	//	//for cm := range msgChannel {
-	//	//	fmt.Printf("Listening in for messages")
-	//	//	msg := cm.Message
-	//	//
-	//	//	fmt.Printf("Message ID: %s", msg.ID())
-	//	//	fmt.Printf("Message value: %s", string(msg.Payload()))
-	//	//
-	//	//	consumer.Ack(msg)
-	//	//}
-
 	client, err := pulsar.NewClient(pulsar.ClientOptions{
 		URL: "pulsar://localhost:6650",
 	})
@@ -62,9 +26,7 @@ func main() {
 	}
 
 	defer client.Close()
-
-
-
+	
 	consumer, err := client.Subscribe(pulsar.ConsumerOptions{
 		Topic:            "customEncryptedData",
 		SubscriptionName: "nativeGoConsumer",
